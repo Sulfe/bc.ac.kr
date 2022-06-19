@@ -23,3 +23,22 @@ audio {
     float: left;
     width: 33%;
 }
+
+.mygit {
+    margin-left: 11%;
+}
+
+.mylist {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.mylist th {
+    padding: 20px 20px 20px 0px;
+    border-right: 1px solid #000000;
+}
+
+.mylist td {
+    padding-left: 20px;
+}
