@@ -1,0 +1,30 @@
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+.container > h3 {
+}
+
+.container > div > div {
+    text-align: center;
+}
+
+.container > div > div > input,
+select {
+    margin: 10px 0px 10px 0px;
+    width: 600px;
+    height: 30px;
+}
+
+.container > div > div > span > input {
+    margin: 10px 0px 10px 0px;
+    width: 600px;
+    height: 30px;
+}
+
+.title {
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #000000;
+}

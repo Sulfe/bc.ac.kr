@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/input.css">
+    </head>
+    <body>
+        <form class="form" method="get">
+            <ul >
+                <li>이름: <input type="text" /><br /></li>
+                <li>나이: <input type="text" /><br /></li>
+                <li>패스워드: <input type="password"/> <br></li>
+                <li>개인정보: <input type="radio" name="info" checked> 공개
+                    <input type="radio" name="info">비공개</li>
+                <li>취미: <input type="checkbox" name="hobby1" checked>게임
+                    <input type="checkbox" name="hobby2">노래감상
+                    <input type="checkbox" name="hobby3">노래방
+                    <input type="checkbox" name="hobby4">영화감상
+                    <input type="checkbox" name="hobby5">코딩</li>
+                <li>이메일: <input type="text"> @
+                <select name="email" id="eamil">
+                    <option value="">선택</option>
+                    <option value="naver.com">naver.com</option>
+                    <option value="daum.com">daum.net</option>
+                    <option value="google.com">google.com</option>
+                    <option value="">직접입력</option>
+                </select></li>
+                <li>좋아하는 색상: <input type="color"></li>
+                <li>생년월: <input type="month"></li>
+                <li>일: <input type="number"></li>
+                <li>자기소개</li>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <li>파일첨부: <input type="file">*2MB까지 가능</li>
+            </ul>
+            <button>검색</button>
+            <button>확인</button>
+            <button>다시쓰기</button>
+        </form>
+    </body>
+</html>

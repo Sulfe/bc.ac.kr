@@ -42,3 +42,7 @@ audio {
 .mylist td {
     padding-left: 20px;
 }
+
+ul > li {
+    padding: 10px 0px 10px 0px;
+}
