@@ -1,0 +1,47 @@
+.pop_wrap{
+    display: none;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    left: 530px;
+    top: 250px;
+    justify-content: center;
+    margin-top: -50px;
+    background: rgb(134, 200, 255);
+    border-radius: 20px;
+    z-index: 9999;
+}
+.backbg{
+    display: none;       
+    position: absolute; 
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:rgba(228, 213, 213);
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+.pop_close{
+    position: absolute;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    top: 0px;
+    right: 5px;
+    cursor: pointer;
+}
+.pop_close a{
+    display: block;
+    background-size: auto;
+    overflow:hidden;
+}
+.message{
+    position: relative;  
+    padding: 400px 65px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+

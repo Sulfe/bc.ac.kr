@@ -1,0 +1,216 @@
+body{
+    background-color: rgb(170, 218, 248);
+    overflow: hidden;
+}
+.info{
+    width: 300px;
+    height: 825px;
+    background-color: white;
+    position: relative;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.logout_btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 237px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: solid black 1px;
+    background: url("bu_img/logout.png");
+    background-size: cover;    
+    cursor: pointer;
+}
+.logout_btn:hover{
+    background-color: red;
+    opacity: 0.5;
+}
+.p1{
+    position: relative;
+    padding-top: 20px;
+    margin-left: 23px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.student_info{
+    margin-top: -10px;
+    margin-left: 20px;    
+    font-size: 15px;
+}
+.by_subject{
+    width: 1560px;
+    height: 825px;
+    background-color: white;
+    margin-top: -835px;
+    margin-left: 335px;
+    border-radius: 20px;
+}
+th, td{
+    border: 0.5px solid #000000;
+}
+th{
+    width: 120px;
+    height: 20px;
+}
+td {
+    width: 2x;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.stinfo{
+    width: 120px;
+    height: 38px;
+    background-color: rgb(216, 240, 255);
+}
+body{
+    background-color: rgb(170, 218, 248);
+}
+.info{
+    width: 300px;
+    height: 825px;
+    background-color: white;
+    position: relative;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.logout_btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 237px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: solid black 1px;
+    background: url("bu_img/logout.png");
+    background-size: cover;    
+    cursor: pointer;
+}
+.logout_btn:hover{
+    background-color: red;
+    opacity: 0.5;
+}
+.p1{
+    position: relative;
+    padding-top: 20px;
+    margin-left: 23px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.student_info{
+    margin-top: -10px;
+    margin-left: 20px;    
+    font-size: 15px;
+}
+.by_subject{
+    width: 1560px;
+    height: 40px;
+    background-color: white;
+    margin-top: -825px;
+    margin-left: 335px;
+    border-radius: 20px;
+}
+th, td{
+    border: 0.5px solid #000000;
+}
+th{
+    width: 120px;
+    height: 20px;
+}
+td {
+    width: 2x;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.stinfo{
+    width: 120px;
+    height: 38px;
+    background-color: rgb(216, 240, 255);
+}
+pre{
+    margin-left: 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.info_important{
+    margin-left: -7px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: rgb(255, 31, 31);  
+
+}
+.info_line{
+    margin-left: -10px;
+    margin-top: 15px;
+    width: 280px;
+    height: 1px;
+    background-color: rgb(255, 37, 37);
+}
+.by_subject ul, .by_subject li {
+	margin: 0;
+	padding: 0;
+}
+.by_subject ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.by_subject li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.by_subject a {
+	color: #000;
+    width: 340px;
+	display: block;
+	font-weight: bolder;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+    border-top: 10px;
+
+}
+.schedule{
+    background: #4cc0ff;
+}
+.by_subject li:hover a {
+	background: #08a9ff;
+}
+.print_form{
+    width: 1560px;
+    height: 775px;
+    background-color: #eee;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 335px;
+}
+.schedule{
+    width: 950px;
+    height: 755px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+}
+caption{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.sub_info_table{
+    width: 580px;
+    height: 640px;
+    background-color: green;
+    position: absolute;
+    left: 980px;
+    top: 10px;
+}

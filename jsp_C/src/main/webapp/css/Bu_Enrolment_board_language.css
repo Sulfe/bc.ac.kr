@@ -1,0 +1,281 @@
+body{
+    background-color: rgb(170, 218, 248);
+}
+.info{
+    width: 300px;
+    height: 825px;
+    background-color: white;
+    position: relative;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.logout_btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 237px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: solid black 1px;
+    background: url("bu_img/logout.png");
+    background-size: cover;    
+    cursor: pointer;
+}
+.logout_btn:hover{
+    background-color: red;
+    opacity: 0.5;
+}
+.p1{
+    position: relative;
+    padding-top: 20px;
+    margin-left: 23px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.student_info{
+    margin-top: -10px;
+    margin-left: 20px;    
+    font-size: 15px;
+}
+.by_subject{
+    width: 1560px;
+    height: 825px;
+    background-color: white;
+    margin-top: -835px;
+    margin-left: 335px;
+    border-radius: 20px;
+}
+th, td{
+    border: 0.5px solid #000000;
+}
+th{
+    width: 120px;
+    height: 20px;
+}
+td {
+    width: 2x;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.stinfo{
+    width: 120px;
+    height: 38px;
+    background-color: rgb(216, 240, 255);
+}
+body{
+    background-color: rgb(170, 218, 248);
+}
+.info{
+    width: 300px;
+    height: 825px;
+    background-color: white;
+    position: relative;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.logout_btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 237px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: solid black 1px;
+    background: url("bu_img/logout.png");
+    background-size: cover;    
+    cursor: pointer;
+}
+.logout_btn:hover{
+    background-color: red;
+    opacity: 0.5;
+}
+.p1{
+    position: relative;
+    padding-top: 20px;
+    margin-left: 23px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.student_info{
+    margin-top: -10px;
+    margin-left: 20px;    
+    font-size: 15px;
+}
+.by_subject{
+    width: 1560px;
+    height: 825px;
+    background-color: white;
+    margin-top: -845px;
+    margin-left: 335px;
+    border-radius: 20px;
+}
+th, td{
+    border: 0.5px solid #000000;
+}
+th{
+    width: 120px;
+    height: 20px;
+}
+td {
+    width: 2x;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.stinfo{
+    width: 120px;
+    height: 38px;
+    background-color: rgb(216, 240, 255);
+}
+pre{
+    margin-left: 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.info_important{
+    margin-left: -7px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: rgb(255, 31, 31);  
+
+}
+.info_line{
+    margin-left: -10px;
+    margin-top: 15px;
+    width: 280px;
+    height: 1px;
+    background-color: rgb(255, 37, 37);
+}
+.by_subject ul, .by_subject li {
+	margin: 0;
+	padding: 0;
+}
+.by_subject ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.by_subject li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.by_subject a {
+	color: #000;
+    width: 340px;
+	display: block;
+	font-weight: bolder;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+    border-top: 10px;
+    border-bottom: solid 1px black;
+}
+.board{
+    background: #4cc0ff;
+}
+.by_subject li:hover a {
+	background: #08a9ff;
+}
+.borad_1_hr{
+    margin-top: -20px;
+}
+.subject_S{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 90px;
+    font-size: 15px;
+}
+.subject_S_sub{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 230px;
+    font-size: 15px;
+}
+.subject_subtitle{
+    margin-top: -5px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text_S{
+    font-size: 20px;
+}
+.red_text{
+    font-size: 20px;
+    color: red;
+}
+h1{
+    margin-left: 20px;
+}
+.search{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#value{
+    margin-top: 4px;
+    margin-left: 350px;
+    border: solid 1px balc;
+    background: #ededed;
+    padding: 6px;
+    font-size: 18px;
+    width: 60%;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+}
+#value:focus{
+    outline: none;
+}
+.container{
+    background: #ffffff;
+    padding: 1%;
+    border: 1px black;
+    overflow-x: hidden;
+}
+.item{
+    margin: 2% 30%;
+    display: flex;
+    align-items: left;
+}
+.icon{
+    width: 27px;
+    height: 25px;
+    background: #32a6ff;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.name{
+    margin-top: -12px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.professor{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,160 @@
+input[id="menuicon"] {display:none;}
+input[id="menuicon"] + label {display:block;;margin:30px;width:60px;height:35px;position:relative;cursor:pointer;}
+input[id="menuicon"] + label span {display:block;position:absolute;width:100%;height:3px;border-radius:50px;background:#000;transition:all .35s; margin-top: 17px;}
+input[id="menuicon"] + label span:nth-child(1) {top:0;}
+input[id="menuicon"] + label span:nth-child(2) {top:100%;}
+input[id="menuicon"] + label span:nth-child(3) {top:50%;transform:translateY(-50%);}
+input[id="menuicon"]:checked + label {z-index:2;}
+input[id="menuicon"]:checked + label span {background:#000;}
+input[id="menuicon"]:checked + label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(45deg);}
+input[id="menuicon"]:checked + label span:nth-child(2) {opacity:0;}
+input[id="menuicon"]:checked + label span:nth-child(3) {bottom:50%;transform:translateY(50%) rotate(-45deg);}
+input[id="menuicon"]:checked + label + div {left:0;}
+
+.wrapper{
+  width: 1920px;   /*가로길이는 1888px입니다*/
+  height: 70px;  /*세로길이는 100px입니다*/
+  background-color: #ffffff;
+  color: #fff;
+  margin-top: -30px;
+  margin-left: -10px;
+}
+.p{
+  font-weight: bold;
+  margin-left: 10px;
+  color: #000;
+}
+.t1{
+  color: white;
+}
+ .logobtn{
+   height: 50px;
+   width: 289px;
+   position: absolute;
+   background-color: #ffffff;   
+   border: none;
+   color: rgb(0, 0, 0);
+   font-size: 35px;
+   left: 800px;
+   cursor: pointer;  /*마우스 커서 변하도록 하였습니다.*/
+   margin-top: 10px;
+ }
+ .logobtn:before{
+   position: absolute;
+   content: '';     /*가상요소를 사용하고있습니다.*/
+   height: 0;
+   width: 0;
+   bottom: 0;
+   left: 0;
+ }
+ .logobtn:after{
+   position: absolute;
+   content: '';      /*가상요소를 사용하고있습니다.*/
+   height: 0;
+   width: 0;
+   top: 0;
+   right: 0;
+ }
+ .logobtn:hover{
+  color:#19008a;
+ }
+ .logobtn:hover:before{
+   height: 50px;
+   width: 286px;
+   border: 3px solid #2f00ff;
+   border-right: none;
+   border-bottom: none;
+   transition: height 0.5s linear, 
+               width 0.5s linear 0.5s;
+   /*border-right와 border-bottom을 마우스 버튼이 올라가기전에는 none이지만 
+   transtition height 0.5s linear width 0.5s linear 0.5를 주어서 마우스를 올리면 
+   테두리가 생기도록 하였습니다*/
+ }
+ .logobtn:hover:after{
+   height: 50px;
+   width: 286px;
+   border: 3px solid #2f00ff;
+   border-left: none;
+   border-top: none;
+   transition: height 0.5s linear, 
+               width 0.5s linear 0.5s;
+ /*border-left와 border-top을 마우스 버튼이 올라가기전에는 none이지만 
+   transtition height 0.5s linear width 0.5s linear 0.5를 주어서 마우스를 올리면 
+   테두리가 생기도록 하였습니다*/
+ }
+
+/* 위에는 로그의 애니메이션 효과 css*/
+
+.menubtn span{               /*span으로 만든 메뉴 버튼입니다.*/
+  width: 45px;
+  height: 4px;
+  background: #000000;
+  display: block;
+  margin-top: 5px;
+}
+.img{
+  width: 40px;
+}
+.outimg{
+  width: 70px;
+  height: 40px;
+  float: right;
+}
+.sidebar{
+    width:330px;
+    height:100%;
+    background:#fff;
+    position:fixed;
+    top:0;
+    left:-330px;
+    z-index:1;
+    transition:all .35s;
+  }
+  .side_list{
+    margin-top: 80px;
+  }
+  .logoimg{
+    width: 280px;
+    height: 100px;
+    margin-left: 10px;
+  }
+  .title{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #000;
+  }
+  .category{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+  }
+  .li{
+    font-size: 17px;
+    color: black;
+    padding-top: 5px;
+  }
+  .category:hover{
+    color: #401be6;
+  }
+  .hr_bar{
+    width: 280px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: -0px;
+  }
+  .hr_bar1{
+    margin-top: 20px;
+  }
+  .pdfdownload{
+    font-size: 18px;
+    color: #000;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  .pdfdownload1{
+    font-size: 18px;
+    color: #000;
+    margin-top: -30px;
+    margin-left: 5px;
+  }

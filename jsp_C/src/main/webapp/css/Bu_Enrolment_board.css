@@ -1,0 +1,244 @@
+body{
+    background-color: rgb(170, 218, 248);
+    overflow: hidden;
+}
+.info{
+    width: 300px;
+    height: 825px;
+    background-color: white;
+    position: relative;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.logout_btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 237px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: solid black 1px;
+    background: url("bu_img/logout.png");
+    background-size: cover;    
+    cursor: pointer;
+}
+.logout_btn:hover{
+    background-color: red;
+    opacity: 0.5;
+}
+.p1{
+    position: relative;
+    padding-top: 20px;
+    margin-left: 23px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.student_info{
+    margin-top: -10px;
+    margin-left: 20px;    
+    font-size: 15px;
+}
+.by_subject{
+    width: 1560px;
+    height: 825px;
+    background-color: white;
+    margin-top: -802px;
+    margin-left: 330px;
+    border-radius: 20px;
+}
+th, td{
+    border: 0.5px solid #000000;
+}
+th{
+    width: 120px;
+    height: 20px;
+}
+td {
+    width: 2x;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.stinfo{
+    width: 120px;
+    height: 38px;
+    background-color: rgb(216, 240, 255);
+}
+pre{
+    margin-left: 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.info_important{
+    margin-left: -7px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: rgb(255, 31, 31);  
+
+}
+.info_line{
+    margin-left: -10px;
+    margin-top: 15px;
+    width: 280px;
+    height: 1px;
+    background-color: rgb(255, 37, 37);
+}
+.by_subject_list ul, .by_subject_list li {
+	margin: 0;
+	padding: 0;
+}
+.by_subject_list ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.by_subject_list li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.by_subject_list a {
+	color: black;
+    width: 340px;
+	display: block;
+	font-weight: bolder;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+    border-bottom: solid 1px black;
+}
+.by_subject_list li:hover a {
+	background: #08a9ff;
+}
+.board{
+    background: #4cc0ff;
+}
+.title1{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+h2{
+    margin-left: 20px;
+    color:#fff;
+}
+.notice_title{
+    font-size: 30px;
+    font:bold;
+    color: #fff;
+}
+.notice_pre{
+    font:bold;
+    color: #fff;
+    font-size: 15px;
+}
+.notice_red{
+    color: red;
+}
+.notice_btn{
+    border-top: none;
+    border-bottom: 1px solid red;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+}
+.subject_list{
+    background-color: #fff;
+    width: 1500px;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: 15px;
+    left: 0px;
+    border: 3px solid black;
+}
+.subject_img{
+    position: absolute;
+    margin-left: 3px;
+    z-index: 2;
+}
+.subjecta{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    margin: 40px 20px;
+}
+.subjecta:hover{
+    color: #000;
+    background-color: rgb(179, 255, 254);
+}
+.subjectli{
+    position: relative;
+    top: -4px;
+    float: left;
+    left: 370px;
+    width: 400px;
+    height: 40px;
+}
+.subjectli1{
+    position: relative;
+    top: 15px;
+    float: left;
+    left: 370px;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+}
+.subjectli2{
+    position: relative;
+    top: 30px;
+    float: left;
+    left: 370px;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+}
+.subject_list1{
+    background-color: #fff;
+    width: 1500px;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: 15px;
+    left: 0px;
+    border: 3px solid black;
+}
+.subjectb{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    margin: 40px 10px;
+}
+.subjectb:hover{
+    color: #000;
+    background-color: rgb(169, 255, 219);
+}
+.subject_list2{
+    background-color: #fff;
+    width: 1500px;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: 15px;
+    left: 0px;
+    border: 3px solid black;
+}
+.subjectc{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    margin-top:20px;
+}
+.subjectc:hover{
+    color: #000;
+    background-color: rgb(207, 172, 255);
+}

@@ -1,0 +1,96 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+/*배경화면 설정*/
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(248, 248, 248),rgb(170, 218, 248))
+}
+
+/*IWT 글씨 설정*/
+
+.login-form img { 
+    width: 200px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.int-area {
+    width: 400px; position: relative;
+    margin-top: 20px;
+}
+
+/*입력 창 설정*/
+
+.int-area input {
+    width: 100%;
+    padding: 20px 10px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-size: 18px; 
+    color: rgb(0, 0, 0);
+    outline: none;
+    border-radius: 5px;
+}
+
+.int-area label {
+    position: absolute; left: 10px; top: 15px;
+    font-size: 14px; color: rgb(0, 0, 0);
+    transition: all .5s ease;
+}
+
+/*입력칸 눌렀을 때 label 변경사항*/
+.int-area input:focus+label,
+.int-area input:valid+label {
+    top: -2px;
+    font-size: 13px; color: #2600ff;
+}
+
+.btn-area {margin-top: 30px;}
+.btn-area button {
+    width: 100%; height: 50px;
+    background: #07234d;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.caption {
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+}
+.caption a2 {
+    font-size: 15px; color: #000000;
+    text-decoration: none;
+    
+}
+.caption a {
+    font-size: 15px; color: #2f01fc;
+    text-decoration: none;
+}
+
+.box1{
+    background : white;
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+    padding: 40px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.login_btn{
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+.find_id:hover{
+    color: red;
+}
+.find_pw:hover{
+    color: red;
+}
+

@@ -1,0 +1,14 @@
+.watch{
+    position: absolute;
+    top: 730px;
+    left: 1600px;
+}
+.date{
+    font-size: 30px;
+    color: black;
+}
+.time{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}

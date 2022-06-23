@@ -1,0 +1,245 @@
+body{
+    background-color: rgb(170, 218, 248);
+}
+.by_subject{
+    width: 1870px;
+    height: 40px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.by_subject ul, .by_subject li {
+	margin: 0;
+	padding: 0;
+}
+.by_subject ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.by_subject li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.by_subject a {
+	color: #000;
+    width: 417.5px;
+	display: block;
+	font-weight: bolder;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+    border-top: 10px;
+}
+.Enrolment{
+    background: #4cc0ff;
+}
+.by_subject li:hover a {
+	background: #08a9ff;
+}
+.subject_info{
+    position: absolute;
+    top:150px;
+    left: 25px;
+    width: 1160px;
+    height: 405px;
+    background-color: #fff;
+    border-radius: 20px;
+    border:solid 1px #000;
+}
+.subject_list{
+    position: absolute;
+    top: 60px;
+}
+.basket_info{
+    position: absolute;
+    top: 570px;
+    left: 25px;
+    width: 1160px;
+    height: 330px;
+    background-color: #fff;
+    border-radius: 20px;
+    border:solid 1px #000;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.subject_S{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 65px;
+    font-weight: bold;
+    font-size: 17px;    
+}
+.subject_S_sub{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 215px;
+    font-weight: bold;
+    font-size: 17px;    
+}
+.search{
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.input_search{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 330px;
+    font-size: 15px;
+    width: 810px;
+}
+.item{
+    margin: 2% 1%;
+    display: flex;
+    align-items: left;
+}
+.icon{
+    width: 110px;
+    margin-left: 70px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.code, .day, .class, .name{
+    width: 110px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.professor{
+    width: 110px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.point, .limit{
+    width: 110px;
+    margin-left: 24px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.day{
+    margin-left: -10px;
+    width: 80px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.class{
+    margin-left: 70px;
+    width: 80px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.item_s{
+    margin: 2% 2%;
+    display: flex;
+}
+.icon_s, .code_s, .point_s, .limit_s, .class_s, .name_s, .professor_s, .day_s, .class_s{
+    text-align: center;
+    width: 170px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+#result{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.save_time{
+    position:absolute;
+    top: -55px;
+    left: 945px;
+    width: 200px;
+    height: 40px;
+    float: right;
+    right: 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+}
+.save_delete{
+    position:absolute;
+    top: 260px;
+    left: 1005px;
+    width: 120px;
+    height: 50px;
+    float: right;
+    right: 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+}
+.time_list{
+    position: absolute;
+    width: 700px;
+    height: 750px;
+    left: 1200px;
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+caption{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+table{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 29px;
+    border: 1px solid #555555;
+    font-size: 15px;
+}
+.another_table{
+    margin-top: 20px;
+    margin-left: 45px;
+    
+}
+.another_table th{
+    background-color: #fff;
+    width: 1050px;
+    height: 160px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: auto;
+}
+ th, td{
+    border: 01px solid #000000;
+}
+th{
+    width: 100px;
+    height: 50px;
+    background-color: #bfdcff;
+}
+td {
+    width: 30px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.result_area{
+    margin-top: -15px;
+    margin-left: 20px;
+    width: 1117px;
+    height: 205px;
+} 
