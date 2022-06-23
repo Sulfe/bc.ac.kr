@@ -1,0 +1,11 @@
+.title {
+    position: relative;
+    overflow: hidden;
+    margin-top: 15px;
+    left: 5%;
+    width: 60%;
+    height: auto;
+    border: 1.3333px;
+    border-style: solid;
+    border-color: rgb(218, 220, 224);
+  }

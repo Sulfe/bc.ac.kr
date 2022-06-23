@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- boxicons CDN -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="sidebar" id="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <i class="bx bx-cube-alt"></i>
+          <div class="logo_name">로고이름</div>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav_list">
+        <li>
+          <a href="index.html">
+            <i class="bx bx-home"></i>
+            <span class="links_name">메인화면</span>
+          </a>
+          <span class="tooltip">메인화면</span>
+        </li>
+        <li>
+          <a
+            href="https://www.google.com/intl/ko_kr/forms/about/"
+            target="_blank"
+          >
+            <i class="bx bx-book-add"></i>
+            <span class="links_name">설문지 작성</span>
+          </a>
+          <span class="tooltip">설문지 작성</span>
+        </li>
+        <li>
+          <a href="list.html">
+            <i class="bx bx-book-content"></i>
+            <span class="links_name">설문지 목록</span>
+          </a>
+          <span class="tooltip">설문지 목록</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="home_content">
+      <div class="home_search">
+        <form
+          method="get"
+          action="http://www.google.co.kr/search"
+          target="_blank"
+        >
+          <i class="bx bx-search"></i>
+          <input
+            type="text"
+            name="q"
+            class="search_box"
+            id="search_box"
+            placeholder="Google 검색"
+          />
+        </form>
+      </div>
+      <div class="mag"></div>
+      <div class="main">
+        <div id="member">
+          <table class="member">
+            <caption>
+              <h3>팀원 소개</h3>
+            </caption>
+            <tr>
+              <td class="member_img">
+                <img src="/picture/여원.jpg" width="150" alt="윤여원" />
+              </td>
+              <td class="member_con">
+                조장<br /><br />윤여원<br /><br />17학번<br /><br />컴퓨터공학부
+              </td>
+            </tr>
+            <tr>
+              <td class="member_img">
+                <img src="/picture/경훈.jpg" width="150" alt="송경훈" />
+              </td>
+              <td class="member_con">
+                팀원<br /><br />송경훈<br /><br />
+                16학번 <br /><br />어문학부
+              </td>
+            </tr>
+            <tr>
+              <td class="member_img">
+                <img src="/picture/강석.jpg" width="150" alt="이재호" />
+              </td>
+              <td class="member_con">
+                팀원<br /><br />오강석<br /><br />
+                17학번 <br /><br />컴퓨터공학부
+              </td>
+            </tr>
+            <tr>
+              <td class="member_img">
+                <img src="/picture/재호.jpg" width="150" alt="오강석" />
+              </td>
+              <td class="member_con">
+                팀원<br /><br />이재호<br /><br />
+                21학번 <br /><br />컴퓨터공학부
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="main_intro">
+          <div id="howuse">
+            <ul class="slides">
+              <li>
+                <img
+                  src="/picture/how to use/사이트 이용방법.jpg"
+                  width="1200"
+                  height="600"
+                />
+              </li>
+              <li>
+                <img
+                  src="/picture/how to use/작성하러 가는길.jpg"
+                  width="1200"
+                  height="600"
+                />
+              </li>
+              <li>
+                <img
+                  src="/picture/how to use/구글폼 접속화면.jpg"
+                  width="1200"
+                  height="600"
+                />
+              </li>
+              <li>
+                <img
+                  src="/picture/how to use/설문지 목록화면.jpg"
+                  width="1200"
+                  height="600"
+                />
+              </li>
+              <li>
+                <img
+                  src="/picture/how to use/설문지 작성화면.jpg"
+                  width="1200"
+                  height="600"
+                />
+              </li>
+              <li>
+                <img
+                  src="/picture/how to use/보내기 클릭후.jpg"
+                  width="1200"
+                  height="600"
+                />
+              </li>
+              <li>
+                <img
+                  src="/picture/how to use/html 코드 확인.jpg"
+                  width="1200"
+                  height="600"
+                />
+              </li>
+              <li>
+                <img
+                  src="/picture/how to use/WRITING PAGE.jpg"
+                  width="1200"
+                  height="600"
+                />
+              </li>
+            </ul>
+            <p class="controller">
+              <span class="prev">&lang;</span>
+              <span class="next">&rang;</span>
+            </p>
+          </div>
+
+          <div class="intro">
+            <h3>프로젝트 소개</h3>
+            <br />
+            <span
+              >이 사이트는 구글 설문지를 작성하고 작성한 설문지를 공유할 수 있는
+              커뮤니티 입니다.<br />학교 커뮤니티인 에브리타임에서 학생들이
+              게시판에 설문지 공유 글을 올리는 것을 보고 <br />설문지만을 다른
+              사람들과 공유할 수 있는 공간이 있으면 좀더 효율 좋게 설문이 진행
+              될 수 있을 것 같아 사이트 제작을 생각하게 되었습니다.<br
+            /></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/img_slide.js"></script>
+    <!-- jQuery= link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- sidebar_toggle.js link -->
+    <script src="js/sidebar_toggle.js"></script>
+  </body>
+</html>

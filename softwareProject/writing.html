@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- boxicons CDN -->
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="sidebar" id="sidebar">
+    <div class="logo_content">
+      <div class="logo">
+        <i class="bx bx-cube-alt"></i>
+        <div class="logo_name">로고이름</div>
+      </div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="nav_list">
+      <li>
+        <a href="index.html">
+          <i class="bx bx-home"></i>
+          <span class="links_name">메인화면</span>
+        </a>
+        <span class="tooltip">메인화면</span>
+      </li>
+      <li>
+        <a href="https://www.google.com/intl/ko_kr/forms/about/" target='_blank'>
+          <i class="bx bx-book-add"></i>
+          <span class="links_name">설문지 작성</span>
+        </a>
+        <span class="tooltip">설문지 작성</span>
+      </li>
+      <li>
+        <a href="list.html">
+          <i class="bx bx-book-content"></i>
+          <span class="links_name">설문지 목록</span>
+        </a>
+        <span class="tooltip">설문지 목록</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="home_content">
+    <div class="home_search">
+      <form method="get" action="http://www.google.co.kr/search" target="_blank">
+        <i class="bx bx-search"></i>
+        <input type="text" name="q" class="search_box" id="search_box" placeholder="Google 검색" />
+      </form>
+    </div>
+    <div class="mag"></div>
+    <div class="main">
+      <!-- <div class="wri">
+        <div class="wri_title">
+          <span>제목</span>
+          <input type="text">
+        </div>
+        <span class="wri_content">내용</span>
+        <div class="wri_content_input">
+          <textarea type="text"></textarea>
+        </div>
+
+
+      </div> -->
+      <table class="write_tb">
+        <tr class="table_title">
+          <th class="table_th">제목</th>
+          <td class="table_td"><input class="table_input1" type="text" placeholder="설문지 제목을 작성해주세요" maxlength="60"></td>
+        </tr>
+
+        <tr class="table_content">
+          <th class="table_th">내용</th>
+          <td class="table_td"><textarea type="text" placeholder="설문지에 대한 설명을 작성해주세요" maxlength="2048"></textarea></td>
+        </tr>
+
+        <tr class="table_link">
+          <th class="table_th">링크</th>
+          <td class="table_td"><input class="table_input2" type="text" placeholder="구글 설문지에서 가져온 링크를 넣어주세요"
+              maxlength="2048"></td>
+        </tr>
+        <tr class="table_link">
+          <th class="table_th">비밀번호</th>
+          <td class="table_td"><input class="table_input3" type="password" placeholder="글 삭제, 수정시에 사용됩니다."
+              maxlength="12"></td>
+        </tr>
+      </table>
+      <button class="writing_wr" onclick=""><i class='bx bx-pencil'></i></button>
+
+    </div>
+
+  </div>
+
+  </div>
+
+  <!-- jQuery= link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- sidebar_toggle.js link -->
+  <script src="js/sidebar_toggle.js"></script>
+</body>
+
+</html>

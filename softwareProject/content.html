@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- boxicons CDN -->
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="sidebar" id="sidebar">
+    <div class="logo_content">
+      <div class="logo">
+        <i class="bx bx-cube-alt"></i>
+        <div class="logo_name">로고이름</div>
+      </div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="nav_list">
+      <li>
+        <a href="index.html">
+          <i class="bx bx-home"></i>
+          <span class="links_name">메인화면</span>
+        </a>
+        <span class="tooltip">메인화면</span>
+      </li>
+      <li>
+        <a href="https://www.google.com/intl/ko_kr/forms/about/" target='_blank'>
+          <i class="bx bx-book-add"></i>
+          <span class="links_name">설문지 작성</span>
+        </a>
+        <span class="tooltip">설문지 작성</span>
+      </li>
+      <li>
+        <a href="list.html">
+          <i class="bx bx-book-content"></i>
+          <span class="links_name">설문지 목록</span>
+        </a>
+        <span class="tooltip">설문지 목록</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="home_content">
+    <div class="home_search">
+      <form method="get" action="http://www.google.co.kr/search" target="_blank">
+        <i class="bx bx-search"></i>
+        <input type="text" name="q" class="search_box" id="search_box" placeholder="Google 검색" />
+      </form>
+    </div>
+    <div class="mag"></div>
+    <div class="main">
+      <table class="write_tb">
+        <tr class="table_title">
+          <th class="table_th">제목</th>
+          <td class="table_td"></td>
+        </tr>
+
+        <tr class="table_content">
+          <th class="table_th">내용</th>
+          <td class="table_td"></td>
+        </tr>
+
+        <tr class="table_link">
+          <th class="table_th">설문지</th>
+          <td class="table_td">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeyaTQJAYoRBllD_Ws5qV87F8n7H1Ynuhtrr3X_A0nTD7gKmg/viewform?embedded=true"
+              width="640" height="1086" frameborder="0" marginheight="0" marginwidth="0">로드 중…</iframe>
+          </td>
+        </tr>
+      </table>
+
+      <a href="#" class="writing_wr"><i class='bx bx-trash'></i></a>
+      <a href="#" class="writing_wr"><i class='bx bxs-cog'></i></a>
+
+    </div>
+
+  </div>
+
+  </div>
+
+  <!-- jQuery= link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- sidebar_toggle.js link -->
+  <script src="js/sidebar_toggle.js"></script>
+</body>
+
+</html>

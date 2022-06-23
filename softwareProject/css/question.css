@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.quest {
+  position: relative;
+  overflow: hidden;
+  margin-top: 15px;
+  left: 5%;
+  width: 60%;
+  height: auto;
+  border: 1.3333px;
+  border-style: solid;
+  border-color: rgb(218, 220, 224);
+}
+
+.q_title {
+  position: relative;
+  text-align: center;
+}
+
+.q_title input {
+  font-size: 17px;
+  margin-top: 10px;
+  width: 300px;
+  height: 35px;
+  border: none;
+  border-bottom: 1.3px solid rgb(218, 220, 224);
+  transition: all 0.5s ease;
+}
+
+.q_title input:focus {
+  background-color: rgb(243, 243, 243);
+  border-bottom: 1.3px solid #6a34fd;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.q_title select {
+  font-size: 13px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-bottom: 1.3px solid rgb(218, 220, 224);
+  transition: all 0.5s ease;
+}
+
+.q_title select:focus {
+  background-color: rgb(243, 243, 243);
+  border-bottom: 1.3px solid #6a34fd;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.q_output {
+  width: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+/* 주관식 */
+.q_essay {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-bottom: 1.3px solid rgb(218, 220, 224);
+}
+
+.q_essay:focus {
+  background-color: rgb(243, 243, 243);
+  border-bottom: 1.3px solid #6a34fd;
+  outline: none;
+  transition: all 0.5s ease;
+}
+/* 라디오박스 */
+.q_sel {
+  display: inline-flex;
+  align-items: center;
+}
+
+.q_select,
+.q_select:checked {
+  appearance: none;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 100%;
+  margin-right: 8px;
+  background-color: #fff;
+  border: 1px solid #6a34fd;
+}
+
+.q_selOption {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-bottom: 1.3px solid rgb(218, 220, 224);
+}
+
+.q_selOption:focus {
+  background-color: rgb(243, 243, 243);
+  border-bottom: 1.3px solid #6a34fd;
+  outline: none;
+  transition: all 0.5s ease;
+}
+/* 라디오 박스 제거 추가 버튼 */
+.q_selDel {
+  margin: 10px 3px 5px 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  display: none;
+}
+
+.q_selDel:hover {
+  color: #ffffff;
+  background: #6a34fd;
+  transition: all 0.5s ease;
+}
+
+.q_selAdd {
+  margin: 10px 0 5px 0;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  display: none;
+}
+
+.q_selAdd:hover {
+  color: #ffffff;
+  background: #6a34fd;
+  transition: all 0.5s ease;
+}
+
+
+/*  */
+
+/* 체크박스 */
+.q_che {
+  display: inline-flex;
+  align-items: center;
+}
+
+.q_check,
+.q_ckeck:checked {
+  appearance: none;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 0%;
+margin-right: 8px;
+  background-color: #fff;
+  border: 1px solid #6a34fd;
+}
+
+.q_cheOption {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-bottom: 1.3px solid rgb(218, 220, 224);
+}
+
+.q_cheOption:focus {
+  background-color: rgb(243, 243, 243);
+  border-bottom: 1.3px solid #6a34fd;
+  outline: none;
+  transition: all 0.5s ease;
+}
+/*  */
+.q_btn {
+  text-align: right;
+}
+
+.q_del {
+  margin: 10px 15px 5px 0;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.q_del:hover {
+  color: #ffffff;
+  background: #6a34fd;
+  transition: all 0.5s ease;
+}
+

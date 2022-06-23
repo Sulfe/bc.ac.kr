@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- boxicons CDN -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="sidebar" id="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <i class="bx bx-cube-alt"></i>
+          <div class="logo_name">MENU</div>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav_list">
+        <li>
+          <a href="index.html">
+            <i class="bx bx-home"></i>
+            <span class="links_name">메인화면</span>
+          </a>
+          <span class="tooltip">메인화면</span>
+        </li>
+        <li>
+          <a href="edit.html">
+            <i class="bx bx-book-add"></i>
+            <span class="links_name">설문지 작성</span>
+          </a>
+          <span class="tooltip">설문지 작성</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-book-content"></i>
+            <span class="links_name">설문지 목록</span>
+          </a>
+          <span class="tooltip">설문지 목록</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="home_content">
+      <div class="home_search">
+        <form
+          method="get"
+          action="http://www.google.co.kr/search"
+          target="_blank"
+        >
+          <i class="bx bx-search"></i>
+          <input
+            type="text"
+            name="q"
+            class="search_box"
+            id="search_box"
+            placeholder="Google 검색"
+          />
+        </form>
+      </div>
+      <div class="mag"></div>
+      <div class="main" id="main">
+        <div class="quest">
+          <div class="q_title">
+            <input type="text" placeholder="질문 제목" />
+            <select class="q_type" id="q_type">
+              <option value="00">질문 유형</option>
+              <option value="01">주관식</option>
+              <option value="02">객관식</option>
+              <option value="03">체크박스</option>
+            </select>
+          </div>
+          <div class="q_output" id="q_output">
+            <!-- <input id="q_essay" type="text" placeholder="텍스트 입력" readonly />
+            <div class="q_sel">
+                  <input class="q_select" type="radio" readonly />
+                  <input class="q_selOption" type="text" placeholder="옵션" />
+            </div> 
+              <div class="q_che">
+              <input type="checkbox" class="q_check"  readonly />
+              <input type="text" class="q_cheOption" placeholder="옵션" />
+            </div>   -->
+          </div>
+          <div class="q_btn">
+            <button type="button" class="q_selDel" onclick="selDelBtn()">
+              <i class="bx bx-x"></i>
+            </button>
+            <button type="button" class="q_selAdd" onclick="selAddBtn()">
+              <i class="bx bx-plus"></i>
+            </button>
+            <button type="button" class="q_del">
+              <i class="bx bx-trash"></i>
+            </button>
+          </div>
+        </div>
+        <div class="quickmenu">
+          <ul>
+            <li>
+              <a href="#" onclick="addQuestion()">
+                <i class="bx bx-plus-circle"></i>
+              </a>
+              <span class="quick_name">질문 추가</span>
+            </li>
+            <li>
+              <a href="#">
+                <i class="bx bx-edit-alt"></i>
+              </a>
+              <span class="quick_name">제목 및 설명 추가</span>
+            </li>
+            <li>
+              <a href="#">
+                <i class="bx bx-layout"></i>
+              </a>
+              <span class="quick_name">섹션 추가</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery= link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/question.js"></script>
+    <!-- sidebar_toggle.js link -->
+    <script src="js/sidebar_toggle.js"></script>
+  </body>
+</html>
