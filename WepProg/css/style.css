@@ -2,6 +2,11 @@ body {
     background-color: #ccffcc80;
 }
 
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
 table {
     background-color: #ffffff;
     border: 1px solid #000000;
@@ -25,7 +30,7 @@ audio {
 }
 
 .mygit {
-    margin-left: 11%;
+    margin: auto;
 }
 
 .mylist {
@@ -45,4 +50,12 @@ audio {
 
 ul > li {
     padding: 10px 0px 10px 0px;
+}
+
+#git-link {
+    text-align: center;
+}
+
+#git-link div {
+    text-align: center;
 }
