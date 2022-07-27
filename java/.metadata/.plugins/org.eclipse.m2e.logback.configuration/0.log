@@ -1002,3 +1002,122 @@ org.eclipse.core.runtime.CoreException: Launch configuration BankStatementAnalyz
 2022-07-20 09:13:00,835 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2022-07-22 11:15:51,729 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2022-07-25 11:19:37,805 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-07-26 09:14:45,118 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-26 19:59:31,339 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-07-26 22:03:27,214 [Worker-52: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml: input contained no data @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml: input contained no data @ 
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:696) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:851) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1009) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:847) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:201) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:87) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:255) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2022-07-26 22:04:03,400 [Worker-56: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/ExcelPoi/target/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049) ~[na:na]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220) ~[na:na]
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048) ~[na:na]
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2022-07-26 22:04:20,636 [Worker-52: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/ExcelPoi/target/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049) ~[na:na]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220) ~[na:na]
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048) ~[na:na]
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2022-07-26 22:13:48,360 [Worker-61: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/ExcelPoi/target/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049) ~[na:na]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220) ~[na:na]
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048) ~[na:na]
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2022-07-26 22:13:51,110 [Worker-61: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[ERROR] For artifact {null:null:null:jar}: The groupId cannot be empty. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml
+[ERROR] 'modelVersion' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'groupId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'artifactId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'version' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] For artifact {null:null:null:jar}: The groupId cannot be empty. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml
+[ERROR] 'modelVersion' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'groupId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'artifactId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'version' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:696) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:851) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1009) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:847) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:201) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:87) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:255) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2022-07-26 22:14:21,751 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-26 22:16:02,908 [Worker-5: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[ERROR] For artifact {null:null:null:jar}: The groupId cannot be empty. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml
+[ERROR] 'modelVersion' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'groupId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'artifactId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'version' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] For artifact {null:null:null:jar}: The groupId cannot be empty. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml
+[ERROR] 'modelVersion' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'groupId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'artifactId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+[ERROR] 'version' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Prog\GitHub\bc.ac.kr\java\ExcelPoi\target\pom.xml, line 1, column 14
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:696) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:851) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1009) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:847) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:201) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:87) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:255) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2022-07-27 08:49:52,046 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

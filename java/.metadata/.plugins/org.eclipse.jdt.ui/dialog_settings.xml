@@ -7,7 +7,7 @@
 	<item key="TypeHierarchyViewPart.qualifiednames" value="false"/>
 	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
 	<item key="TypeHierarchyViewPart.orientation" value="3"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\songh\OneDrive\바탕 화면\poi-bin-5.2.2-20220312\poi-bin-5.2.2"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Program Files\Java\poi\poi-bin-5.2.2\auxiliary"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -54,13 +54,19 @@
 		<item key="SynchronizedModifier" value="false"/>
 		<item key="Comments" value="false"/>
 		<item key="InsertPosition.v2" value="0"/>
+		<item key="LimitElements" value="false"/>
+		<item key="IgnoreDefault" value="true"/>
+		<item key="StringStyle" value="0"/>
+		<item key="LimitValue" value="10"/>
+		<item key="SkipNull" value="false"/>
+		<item key="ToStringTemplateSelected" value="0"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item key="SortOrdering" value="false"/>
 		<item key="RemoveFinal" value="false"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="777"/>
+		<item key="DIALOG_X_ORIGIN" value="358"/>
 		<item key="DIALOG_Y_ORIGIN" value="80"/>
 		<item key="DIALOG_WIDTH" value="543"/>
 		<item key="DIALOG_HEIGHT" value="708"/>
@@ -93,6 +99,13 @@
 		<item key="DIALOG_Y_ORIGIN" value="6"/>
 		<item key="DIALOG_WIDTH" value="572"/>
 		<item key="DIALOG_HEIGHT" value="402"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="DialogBounds_GenerateToStringDialog">
+		<item key="DIALOG_X_ORIGIN" value="390"/>
+		<item key="DIALOG_Y_ORIGIN" value="-14"/>
+		<item key="DIALOG_WIDTH" value="511"/>
+		<item key="DIALOG_HEIGHT" value="694"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>
