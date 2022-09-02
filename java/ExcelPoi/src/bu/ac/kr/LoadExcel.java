@@ -11,12 +11,12 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class LoadExcel {
 
-	public static void main(String args[]) {
+	public void excelPrint(String path, String name) {
 
 		List<UserVo> list = new ArrayList<UserVo>();
 
 		try {
-			FileInputStream file = new FileInputStream("src/bu/resorces/test.xlsx");
+			FileInputStream file = new FileInputStream(path+name);
 			@SuppressWarnings("resource")
 			XSSFWorkbook workbook = new XSSFWorkbook(file);
 
